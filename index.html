@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agua de Mesa Las Rocas - Agua Mineral Premium</title>
+    <meta name="description" content="Agua mineral de la más alta calidad para tu hogar y negocio. Servicio de delivery y precios mayoristas.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.svg" alt="Las Rocas Logo" height="50" class="me-2">
+                <span>Agua de Mesa<br>Las Rocas</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promociones">Promociones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#beneficios">Beneficios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#videos">Videos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--  -->
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h1 class="mb-4">Agua Mineral Las Rocas</h1>
+                    <p class="lead mb-4">Pureza cristalina en cada gota. Descubre el sabor auténtico de nuestra agua mineral premium.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#productos" class="btn btn-primary btn-lg">Nuestros Productos</a>
+                        <a href="https://wa.me/51927362916" class="btn btn-outline-light btn-lg" target="_blank">
+                            <i class="fab fa-whatsapp me-2"></i>Contáctanos
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="img/8x625.jpg" alt="Agua Mineral Las Rocas" class="img-fluid rounded-4 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características Section -->
+    <section class="caracteristicas py-5">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card text-center p-4">
+                        <div class="icon-wrapper mb-4">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h5>Calidad Premium</h5>
+                        <p class="text-muted">Agua purificada con los más altos estándares de calidad</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card text-center p-4">
+                        <div class="icon-wrapper mb-4">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h5>Entrega Express</h5>
+                        <p class="text-muted">Delivery rápido y seguro a tu puerta</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card text-center p-4">
+                        <div class="icon-wrapper mb-4">
+                            <i class="fas fa-hand-holding-water"></i>
+                        </div>
+                        <h5>100% Natural</h5>
+                        <p class="text-muted">Agua pura y cristalina directo de la naturaleza</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card text-center p-4">
+                        <div class="icon-wrapper mb-4">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h5>Atención 24/7</h5>
+                        <p class="text-muted">Soporte y atención personalizada todo el día</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Section -->
+    <section id="productos" class="productos py-5">
+        <div class="container">
+            <h2 data-aos="fade-up">Nuestros Productos</h2>
+            <div class="row" id="productos-container">
+                <!-- Products will be loaded dynamically from products.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Promociones Section -->
+    <section id="promociones" class="promociones py-5 bg-light">
+        <div class="container">
+            <h2 data-aos="fade-up">Promociones Especiales</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-percentage fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title h4">Descuento por Volumen</h3>
+                            <p class="card-text">Obtén hasta 10% de descuento en compras mayores a 50 unidades</p>
+                            <a href="https://wa.me/51927362916?text=Hola, me interesan los descuentos por volumen" class="btn btn-outline-primary mt-3" target="_blank">
+                                Consultar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-star fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title h4">Cliente Frecuente</h3>
+                            <p class="card-text">Acumula puntos en cada compra y obtén descuentos especiales</p>
+                            <a href="https://wa.me/51927362916?text=Hola, quiero ser cliente frecuente" class="btn btn-outline-primary mt-3" target="_blank">
+                                Más Info
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-truck fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title h4">Delivery Gratis</h3>
+                            <p class="card-text">En pedidos mayores a S/100 en zonas seleccionadas</p>
+                            <a href="https://wa.me/51927362916?text=Hola, quiero información sobre el delivery gratis" class="btn btn-outline-primary mt-3" target="_blank">
+                                Ver Zonas
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Nuestros Videos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="video-card">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe 
+                                src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fagualasrocas%2Fvideos%2F980879887430982%2F&show_text=false&width=734&height=413&appId" 
+                                width="100%" 
+                                height="300" 
+                                style="border:none;overflow:hidden" 
+                                scrolling="no" 
+                                frameborder="0" 
+                                allowfullscreen="true" 
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="video-card">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe 
+                                src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fagualasrocas%2Fvideos%2F3133730310256266%2F&show_text=false&width=734&height=413&appId" 
+                                width="100%" 
+                                height="300" 
+                                style="border:none;overflow:hidden" 
+                                scrolling="no" 
+                                frameborder="0" 
+                                allowfullscreen="true" 
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="video-card">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe 
+                                src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fagualasrocas%2Fvideos%2F3477885799146946%2F&show_text=false&width=734&height=413&appId" 
+                                width="100%" 
+                                height="300" 
+                                style="border:none;overflow:hidden" 
+                                scrolling="no" 
+                                frameborder="0" 
+                                allowfullscreen="true" 
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="video-card">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe 
+                                src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fagualasrocas%2Fvideos%2F1951239955275198%2F&show_text=false&width=734&height=413&appId" 
+                                width="100%" 
+                                height="300" 
+                                style="border:none;overflow:hidden" 
+                                scrolling="no" 
+                                frameborder="0" 
+                                allowfullscreen="true" 
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="video-card">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe 
+                                src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fagualasrocas%2Fvideos%2F425629139303334%2F&show_text=false&width=734&height=413&appId" 
+                                width="100%" 
+                                height="300" 
+                                style="border:none;overflow:hidden" 
+                                scrolling="no" 
+                                frameborder="0" 
+                                allowfullscreen="true" 
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="video-card">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe 
+                                src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fagualasrocas%2Fvideos%2F482686983053219%2F&show_text=false&width=734&height=413&appId" 
+                                width="100%" 
+                                height="300" 
+                                style="border:none;overflow:hidden" 
+                                scrolling="no" 
+                                frameborder="0" 
+                                allowfullscreen="true" 
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación Section -->
+    <section id="ubicacion" class="ubicacion py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Nuestra Ubicación</h2>
+            <div class="row g-4">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="location-info p-4">
+                        <div class="info-card mb-4">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Dirección</h4>
+                            <p>Distribuidora Celusa<br>Huánuco, Perú</p>
+                        </div>
+                        <div class="info-card mb-4">
+                            <i class="fas fa-clock"></i>
+                            <h4>Horario de Atención</h4>
+                            <p>Lunes a Domingo<br>8:00 AM - 8:00 PM</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <h4>Contacto</h4>
+                            <p>WhatsApp: +51 927 362 916<br>Delivery disponible</p>
+                        </div>
+                        <a href="https://www.google.com.pe/maps/place/Distribuidora+Celusa/@-9.9446401,-76.2528483,17z/data=!4m6!3m5!1s0x91a7c303d03d9b95:0x671377cf659a188!8m2!3d-9.9445905!4d-76.2528215!16s%2Fg%2F11p4zz513c" 
+                           class="btn btn-primary btn-lg w-100 mt-4" target="_blank">
+                            <i class="fas fa-directions me-2"></i>Cómo Llegar
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.5374447794387!2d-76.25284831744384!3d-9.944640199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a7c303d03d9b95%3A0x671377cf659a188!2sDistribuidora%20Celusa!5e0!3m2!1ses!2spe!4v1708993000000!5m2!1ses!2spe"
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Section -->
+    <section id="beneficios" class="beneficios py-5">
+        <div class="container">
+            <h2 class="text-center" data-aos="fade-up">¿Por qué elegirnos?</h2>
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-card p-4">
+                        <div class="icon-box mb-4">
+                            <img src="img/1.webp" alt="Agua Purificada" class="img-fluid rounded-circle" style="max-width: 80px;">
+                        </div>
+                        <h3 class="h4 mb-3">Agua Purificada</h3>
+                        <p class="text-muted">Nuestro proceso de purificación de última generación garantiza la más alta calidad en cada gota. Disfruta de agua pura y refrescante.</p>
+                        <ul class="check-list mt-3">
+                            <li>Proceso certificado</li>
+                            <li>Control de calidad riguroso</li>
+                            <li>Sabor natural</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-card p-4">
+                        <div class="icon-box mb-4">
+                            <img src="img/2.webp" alt="Entrega Rápida" class="img-fluid rounded-circle" style="max-width: 80px;">
+                        </div>
+                        <h3 class="h4 mb-3">Entrega Rápida</h3>
+                        <p class="text-muted">Servicio de delivery eficiente y puntual. Llevamos nuestros productos directamente a tu puerta en el menor tiempo posible.</p>
+                        <ul class="check-list mt-3">
+                            <li>Delivery programado</li>
+                            <li>Cobertura amplia</li>
+                            <li>Entregas puntuales</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-card p-4">
+                        <div class="icon-box mb-4">
+                            <img src="img/3.webp" alt="Calidad Garantizada" class="img-fluid rounded-circle" style="max-width: 80px;">
+                        </div>
+                        <h3 class="h4 mb-3">Calidad Garantizada</h3>
+                        <p class="text-muted">Respaldados por certificaciones de calidad y salubridad que garantizan la excelencia de nuestros productos.</p>
+                        <ul class="check-list mt-3">
+                            <li>Certificaciones vigentes</li>
+                            <li>Estándares internacionales</li>
+                            <li>Garantía de satisfacción</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/51927362916" class="whatsapp-button" target="_blank" data-aos="fade-left">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-light mb-4">Agua de Mesa Las Rocas</h5>
+                    <p class="text-light">Agua mineral de la más alta calidad para tu hogar y negocio. Servicio de delivery y precios mayoristas.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-light mb-4">Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#inicio" class="text-light text-decoration-none">Inicio</a></li>
+                        <li><a href="#productos" class="text-light text-decoration-none">Productos</a></li>
+                        <li><a href="#promociones" class="text-light text-decoration-none">Promociones</a></li>
+                        <li><a href="#beneficios" class="text-light text-decoration-none">Beneficios</a></li>
+                        <li><a href="#ubicacion" class="text-light text-decoration-none">Ubicación</a></li>
+                        <li><a href="#videos" class="text-light text-decoration-none">Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-light mb-4">Síguenos en Redes</h5>
+                    <div class="footer-social-grid">
+                        <a href="https://www.facebook.com/agualasrocas" target="_blank" class="footer-social-item facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <div class="content">
+                                <span>Facebook</span>
+                                <small>Síguenos y entérate de nuestras novedades</small>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/agualasrocas" target="_blank" class="footer-social-item instagram">
+                            <i class="fab fa-instagram"></i>
+                            <div class="content">
+                                <span>Instagram</span>
+                                <small>Fotos y stories exclusivos</small>
+                            </div>
+                        </a>
+                        <a href="https://www.tiktok.com/@agualasrocas" target="_blank" class="footer-social-item tiktok">
+                            <i class="fab fa-tiktok"></i>
+                            <div class="content">
+                                <span>TikTok</span>
+                                <small>Videos divertidos y creativos</small>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/51927362916" target="_blank" class="footer-social-item whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="content">
+                                <span>WhatsApp</span>
+                                <small>Pedidos y consultas directas</small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-light mt-4">
+                <p>&copy; 2025 Agua de Mesa Las Rocas. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
