@@ -26,7 +26,7 @@ body.loaded {
 
 /* Hero Section */
 .hero {
-      padding-bottom: 150px; /* Aumenta este valor si es necesario */
+    padding-bottom: 100px; /* Aumenta este valor si es necesario */
     background: var(--water-gradient);
     color: white;
     position: relative;
