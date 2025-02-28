@@ -66,9 +66,12 @@ body.loaded {
     font-weight: 300;
 }
 
-.hero img {
-    animation: float 6s ease-in-out infinite;
+@media (max-width: 768px) {
+    .hero img {
+        margin-top: 60px; /* Aumenta el espacio en móviles */
+    }
 }
+
 
 @keyframes float {
     0% {
