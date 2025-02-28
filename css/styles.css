@@ -26,12 +26,16 @@ body.loaded {
 
 /* Hero Section */
 .hero {
+      padding-bottom: 150px; /* Aumenta este valor si es necesario */
     background: var(--water-gradient);
     color: white;
     position: relative;
     overflow: hidden;
     padding: 150px 0;
     margin-bottom: 80px;
+}
+.hero .row {
+    align-items: flex-start; /* Asegura que la imagen no suba demasiado */
 }
 
 .hero::before {
