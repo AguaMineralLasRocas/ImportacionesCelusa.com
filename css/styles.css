@@ -66,11 +66,10 @@ body.loaded {
     font-weight: 300;
 }
 
-@media (max-width: 768px) {
-    .hero img {
-        margin-top: 60px; /* Aumenta el espacio en móviles */
-    }
+.hero img {
+    margin-top: 80px; /* Ajusta este valor según lo necesites */
 }
+
 
 
 @keyframes float {
