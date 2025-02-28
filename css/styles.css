@@ -26,16 +26,12 @@ body.loaded {
 
 /* Hero Section */
 .hero {
-    padding-bottom: 100px; /* Aumenta este valor si es necesario */
     background: var(--water-gradient);
     color: white;
     position: relative;
     overflow: hidden;
     padding: 150px 0;
     margin-bottom: 80px;
-}
-.hero .row {
-    align-items: flex-start; /* Asegura que la imagen no suba demasiado */
 }
 
 .hero::before {
@@ -71,7 +67,7 @@ body.loaded {
 }
 
 .hero img {
-    margin-top: 120px; /* Ajusta el valor hasta que la imagen se vea bien */
+    margin-top: 100px; /* Ajusta el valor hasta que la imagen se vea bien */
 }
 
 
