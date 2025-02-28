@@ -222,15 +222,16 @@ body.loaded {
 }
 
 /* Sections */
+/* Sections */
 section {
-    padding: 120px 0;
+    padding: 60px 0; /* Cambia de 120px a 60px */
     color: var(--text-dark);
 }
 
 section h2 {
     font-size: 3rem;
     font-weight: 800;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem; /* Cambia de 4rem a 2rem */
     position: relative;
     display: inline-block;
 }
@@ -992,7 +993,7 @@ section h2::after {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .hero {
-        padding: 100px 0 50px;
+        padding: 60px 0 30px;
     }
     
     .hero h1 {
@@ -1002,7 +1003,15 @@ section h2::after {
     .hero .lead {
         font-size: 1rem;
     }
+     /* Añade estas líneas */
+    section {
+        padding: 40px 0;
+    }
     
+    section h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
     .whatsapp-button {
         width: 50px;
         height: 50px;
@@ -1224,4 +1233,30 @@ h1, h2, h3, h4, h5, h6 {
 .icon-box img:hover {
     transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(44, 125, 160, 0.2);
+}
+/* Ajustes adicionales para espaciado */
+.product-card, .feature-card, .benefit-card, .social-card, .testimonial-card {
+    margin-bottom: 20px;
+}
+
+.row > [class*="col-"] {
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+    .hero {
+        padding: 100px 0 60px;
+    }
+    
+    section {
+        padding: 70px 0;
+    }
+}
+
+.caracteristicas, .beneficios, .promociones, .ubicacion, .contacto, .videos, .social-media {
+    padding: 50px 0;
 }
